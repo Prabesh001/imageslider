@@ -1,7 +1,7 @@
 const slider = document.querySelector('.slideImage')
 const animeName = document.querySelector('.animeName')
 
-const images=['onepiece.jpg','naruto.jpg','drstone.jpg','deathnote.jpg','akame.jpg','titan.jpg','demonslayer.jpg','boruto.jpg','codegeass.jpg','blackclover.jpg']
+const images=['onepiece.jpg','Naruto.jpg','drstone.jpg','deathnote.jpg','akame.jpg','titan.jpg','demonslayer.jpg','boruto.jpg','codegeass.jpg','blackclover.jpg']
 
 const name=['One Piece','Naruto','Dr. Stone','Death Note','Akame Ga Kill','Attack On Titan','Demon Slayer','Boruto','Code Geass','Black Clover']
 
