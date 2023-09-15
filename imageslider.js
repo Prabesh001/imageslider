@@ -26,7 +26,7 @@ document.addEventListener('keydown',(event)=>{
 function rightscroll(){
   i++
   i=i%images.length;
-  slider.src='.image/' + images[i]
+  slider.src=`${images[i]}`
   animeName.innerHTML=`${name[i]}`
   document.body.style.backgroundColor=`${bg_color[i]}`
 }
@@ -38,9 +38,7 @@ function leftscroll(){
   if(i<0){
     i=(images.length)+i%images.length;
   }
-  slider.src='.image/' + images[i]
+  slider.src=`${images[i]}`
   animeName.innerHTML=`${name[i]}`
   document.body.style.backgroundColor=`${bg_color[i]}`
 }
-
-setInterval(rightscroll,5000)
